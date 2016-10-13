@@ -1,0 +1,126 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffdfdfe">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.example.humraz.modelenggcollege.select"
+        android:background="#ffffffff"
+        >
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Teacher"
+            android:id="@+id/button"
+            android:onClick="teacher"
+
+            android:layout_below="@+id/textView6"
+            android:layout_alignLeft="@+id/edittexxt"
+            android:layout_alignStart="@+id/edittexxt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="What Role Do You Play In Model Engineering College?"
+            android:id="@+id/textView6"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Please Choose Correctly As This Will Affect The Notifications You Recieve And Cannot Be Modified Later on"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/textView15"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/edittexxt"
+            android:gravity="center"
+            android:layout_below="@+id/button"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Select &quot;Parent&quot; If You Are A Parent"
+            android:id="@+id/textView8"
+            android:textSize="19dp"
+            android:layout_below="@+id/edittexxt"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Parent"
+            android:id="@+id/button7"
+            android:onClick="Parent"
+
+            android:textSize="16dp"
+            android:layout_below="@+id/textView8"
+            android:layout_alignLeft="@+id/edittexxt"
+            android:layout_alignStart="@+id/edittexxt"
+            android:layout_marginTop="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView15"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView19" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView16"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/button7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView19"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView16" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="..."
+            android:id="@+id/textView20"
+            android:layout_above="@+id/textView19"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fffdfdfe" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="..."
+            android:id="@+id/textView23"
+            android:layout_above="@+id/textView15"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fffdfdfe" />
+
+    </RelativeLayout>
+</ScrollView>

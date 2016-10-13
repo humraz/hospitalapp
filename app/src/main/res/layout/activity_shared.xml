@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_marginTop="90dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:text="Who are you?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#ffffffff" />
+    <LinearLayout
+        android:id="@+id/ll"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_marginRight="5dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"
+            android:text="Doctor"
+            android:layout_weight="1"
+            android:id="@+id/b_doc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"
+            android:text="Patient"
+            android:layout_weight="1"
+            android:id="@+id/b_pat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="patient" />
+    </LinearLayout>
+
+</RelativeLayout>
